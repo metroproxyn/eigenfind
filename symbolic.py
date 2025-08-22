@@ -26,3 +26,8 @@ def get_eigenvectors(matrix, eigenvalue):
     
     # Return the nullspace (eigenspace) as a list of column vectors
     return eig_matrix.nullspace()
+
+    from sympy import symbols
+
+# λ = symbols('λ') TBD
+# get_eigenvectors(A, λ)
